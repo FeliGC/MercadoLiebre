@@ -11,6 +11,11 @@
     margin: auto;
 }
 
+header header{
+    width: 80%;
+    margin: auto;
+}
+
 header nav{
     display: none;
 }
