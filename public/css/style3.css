@@ -1,0 +1,383 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    
+ }
+ .texto-header{
+     text-align: center;
+     padding-top: 5px;
+     margin: auto;
+ }
+ 
+ header nav{
+     display: none;
+ }
+ 
+ 
+ body{
+     background-color: #ebebeb;
+     font-family: "Roboto";
+ }
+ 
+ .iconsearch{
+    padding: 3px;
+    border-radius: 2px;
+    background-color: white;
+    padding-bottom: 5px;
+ }
+ 
+ .input{
+    width: 50%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+ }
+ .input1{
+    border: solid 2px white;
+    border-radius: 2px;
+    padding: 2px;
+    width: inherit;
+    margin: auto;
+ }
+
+ 
+ 
+ .burger-menu{
+     display: flex;
+     justify-content: center;
+ 
+     
+ }
+ #burger{
+     color: white;
+     background-color: blue;
+     padding: 11px;
+     border-radius: 9px;
+     font-size: 20px;
+     margin: 10px 0px;
+ }
+ 
+ 
+ 
+ 
+ .Titulares{
+ font-size: 24px;
+ }
+ 
+ .Precios{
+ font-size: 18px ;
+ padding-left: 5px;
+ }
+ 
+ .Descuentos{
+ font-size: 16px ;
+ color: green;
+ }
+ 
+ 
+ p{font-size: 16px;
+ }
+ 
+ 
+ .tarjetacredito{
+     color: blue;
+     text-align: center;
+     font-size: 2em;
+     line-height: 9px;
+     padding-bottom: 3px;
+ }
+ 
+ .regaloICON{
+     color: blue;
+     text-align: center;
+     font-size: 2em;
+     line-height: 9px;
+     padding-bottom: 3px;
+    
+ }
+ 
+ 
+ .SeguridadIcon{
+     color: blue;
+     text-align: center;
+     font-size: 2em;
+     line-height: 9px;
+     padding-bottom: 3px;
+     
+ }
+ 
+ .footer{
+     background-color: white;
+     width: 100%;
+     
+ }
+ 
+ .foot{
+     text-align: center;
+ }
+ 
+ .foot1{
+     text-align: center;
+     
+ }
+
+ .foot2 p{
+    font-size: 15px;
+ }
+ 
+ 
+ 
+ main{
+     margin: auto;
+     width: 90%;
+ }
+ 
+ 
+ 
+ .camioncito{
+     color: rgb(63, 223, 63);
+     border: solid rgb(63, 223, 63) 1px;
+     padding: 7px;
+     border-radius: 50%;
+     position: absolute;
+     right: 13px;
+     top: -20px;
+ }
+ 
+ 
+ 
+ main section article{
+     margin: 10px auto;
+     background-color: white;
+     
+     
+ }
+ 
+ 
+ div.article-description{
+     background-color: white;
+     border-top: solid 1px #ebebeb ;
+     padding: 10px 7px;
+     position: relative;
+     width: auto;
+     
+ }
+ 
+ main section h3{
+     margin: 15px 0px;
+ }
+ 
+  main section article h4{
+     color: grey;
+     padding-bottom: 5px;
+     display: none;
+ }
+ 
+ 
+ 
+ 
+  .article-precio-descuento{
+      display: flex;
+      
+  }
+ 
+  article .Precios{
+      width: 30%;
+      font-weight: 600;
+ 
+  }
+ 
+  article .Descuentos{
+      margin: auto;
+      
+ 
+  }
+  
+ 
+  .top-header{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 3%;
+      justify-content: space-between;
+  }
+ 
+  header .logo{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+     
+  }
+ 
+  header .barra-busqueda{
+      width: 50%;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+     
+  }
+ 
+ .oferts{
+     padding-bottom: 10px;
+ }
+ p.barra{
+     display: contents;
+     font-size: 12px;
+     margin: 0px 3px;
+ }
+ header header nav{
+     padding-left: 10px;
+     
+ }
+
+ .login{
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    
+
+ }
+
+ .login h1{
+    padding-bottom: 30px;
+    text-decoration: underline;
+ }
+
+ .login-formu{
+    justify-content: center;
+    padding-bottom: 20px;
+ }
+.login-formu label{
+    display: block; 
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.login-formu input{
+    width: 60%;
+    padding: 4px;
+    border: solid 1px rgb(149, 149, 149);
+    border-radius: 3px;
+    
+}
+.boton{
+    background-color: white;
+    color: black;
+    padding: 9px;
+    border-radius: 3px;
+    border: 2px solid #0022AA;
+    transition: all 450ms;
+}
+
+
+.boton:hover{
+    color: white;
+    background-color: #0022AA;
+    border: #0022AA solid 2px;
+}
+
+
+
+@media (min-width:361px){
+     main section article h4{
+         display: block;
+     }
+     
+     main section article{
+         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+          width: 45%;
+     }
+ 
+     section .productos{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+     }
+ 
+     div.burger-menu{
+         display: none;
+     }
+ 
+ 
+     header nav{
+         display: flex;
+         justify-content: space-between;
+         padding: 15px;
+         font-size: 12px;   
+     }
+ 
+     header nav ul{
+         display: flex;
+     }
+     header nav li{
+         padding: 0px 5px;
+     }
+ 
+     .top-header{
+         flex-wrap: nowrap ;
+     }
+     .top-header p{
+         text-align: center;
+     }
+ 
+     header .input{
+         width: 67%;
+     }
+ 
+ .top-header p{
+     width: 40%;
+     font-size: 15px;
+ }
+ .texto-header{
+ font-size: 12px;
+ margin: auto;
+ padding: 0%;
+ 
+ }
+     
+ }
+ 
+  @media (min-width:769px){
+    .top-header p{
+        font-size: 18px;
+    }
+ 
+     main section article{
+         width: 22.5%;
+     }
+     header header nav{
+         font-size: 16px;
+     }
+     .footer{
+        display: flex;
+    padding: 30px 0px;
+    padding-bottom: 50px;
+     }
+     .SeguridadIcon{
+        transition: all 1s;
+    }
+    
+    .SeguridadIcon:hover{
+        color: chartreuse;
+    }
+    
+    .regaloICON{
+        transition: all 1s;
+    }
+    .regaloICON:hover{
+        color: chartreuse;
+    }
+    
+    .tarjetacredito{
+        transition: all 1s;
+    }
+    .tarjetacredito:hover{
+        color: chartreuse;
+    }
+
+    .login-formu input{
+        width: 40%;
+    }
+ 
+     
+  }
